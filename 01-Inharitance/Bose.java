@@ -1,10 +1,15 @@
 
 public class Bose {
-    int name;
+    String name;
     int salary;
 
-    public static void main(String[] args) {
+    Bose() {
+        super();
+    }
 
+    Bose(String name, int salary) {
+        this.name = name;
+        this.salary = salary;
     }
 
 }
