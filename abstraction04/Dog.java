@@ -3,18 +3,14 @@ package abstraction04;
 public class Dog extends Animal {
     // String name;
 
-    public Dog(String name) {
-        super(name);
-        // this.name = name;
+    public Dog(String name, String bread) {
+        super(name, bread);
+        
     }
 
     @Override
     void sound() {
-        System.out.println("This is dog sound");
+        System.out.println(name + " Dog  is barking on the road like Bhao...bhao...bhao....!!!!!!");
     }
 
-    @Override
-    public void eat() {
-        System.out.println(bread + " is eating");
-    }
 }

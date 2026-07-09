@@ -38,4 +38,4 @@
 - it is not synchronusied but if sync is requrired we can synchronised by calling synchronised list of collection class
 
 ## Array List have different type method
-l
+
